@@ -1,0 +1,148 @@
+.grid{
+    display: flex;
+    width: 480px;
+    top:10px;
+    flex-wrap:wrap;
+}
+
+
+.tile{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+
+.planet_0 {
+    background: whitesmoke;
+    opacity: 0.2;
+    color: whitesmoke;
+}
+.planet_2 {
+    background-image: url("./images/EARTH.jpg");
+    background-size: contain;
+    color: yellow;
+    font-size: 45px;
+    font-family: cursive;
+    opacity: 0.9;
+    animation: shift_planet 0.8s;
+}
+.planet_4 {
+    background-image: url("./images/KEPLER-22B.jpg");
+    background-size: contain;
+    color: cyan;
+    font-size: 45px;
+    font-family: cursive;
+    opacity: 0.9;
+    animation: shift_planet 0.8s;
+}
+.planet_8 {
+    background-image: url("./images/KEPLER-186F.jpg");
+    background-size: contain;
+    color: orange;
+    font-size: 45px;
+    font-family: cursive;
+    opacity: 0.9;
+    animation: shift_planet 0.8s;
+}
+.planet_16 {
+    background-image: url("./images/GLIESE_667CC.webp");
+    background-size: contain;
+    color: darkred;
+    font-size: 45px;
+    font-family: cursive;
+    opacity: 0.9;
+    animation: shift_planet 0.8s;
+}
+.planet_32 {
+    background-image: url("./images/KEPLER-1649C.jpg");
+    background-size: contain;
+    color: coral;
+    font-size: 45px;
+    font-family: cursive;
+    opacity: 0.9;
+    animation: shift_planet 0.8s;
+}
+.planet_64 {
+    background-image: url("./images/KEPLER-442B.jpg");
+    background-size: contain;
+    color: blue;
+    font-size: 45px;
+    font-family: cursive;
+    opacity: 0.9;
+    animation: shift_planet 0.8s;
+}
+.planet_128 {
+    background-image: url("./images/TRAPPIST-1E.jpg");
+    background-size: contain;
+    color: lime;
+    font-size: 45px;
+    font-family: cursive;
+    opacity: 0.9;
+    animation: shift_planet 0.8s;
+}
+.planet_256 {
+    background-image: url("./images/PROXIMA-CENTAURI-B.jpg");
+    background-size: contain;
+    color: pink;
+    font-size: 45px;
+    font-family: cursive;
+    opacity: 0.9;
+    animation: shift_planet 0.8s;
+}
+.planet_512 {
+    background-image: url("./images/KEPLER-452B.jpg");
+    background-size: contain;
+    color: maroon;
+    font-size: 45px;
+    font-family: cursive;
+    opacity: 0.9;
+    animation: shift_planet 0.8s;
+}
+.planet_1024 {
+    background-image: url("./images/KEPLER-62F.jpg");
+    background-size: contain;
+    color: tan;
+    font-size: 45px;
+    font-family: cursive;
+    opacity: 0.9;
+    animation: shift_planet 0.8s;
+}
+.planet_2048 {
+    background-image: url("./images/KEPLER-69C.jpg");
+    background-size: contain;
+    color: purple;
+    font-size: 45px;
+    font-family: cursive;
+    opacity: 0.9;
+    animation: shift_planet 0.8s;
+}
+@keyframes shift_planet {
+    50% {font-size: 60px; color: white}
+}
+
+
+
+.ifEnd{
+    display: flex;
+    justify-content: center;
+}
+
+.restart{
+    cursor: pointer;
+    width: 120px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 30px auto;
+    background-color: whitesmoke;
+    font-size: 30px;
+    font-color: black;
+    outline: none;
+    display: block;
+    font-family: cursive;
+    opacity: 0.9;
+}
+
+
